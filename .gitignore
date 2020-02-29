@@ -1,0 +1,6 @@
+*/.idea
+*/cmake-build-debug
+SLAM/ceres/.idea
+SLAM/ceres/cmake-build-debug
+SLAM/g2o/.idea
+SLAM/g2o/cmake-build-debug
