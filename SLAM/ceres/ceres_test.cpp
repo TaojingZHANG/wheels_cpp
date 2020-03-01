@@ -6,7 +6,8 @@
 1：构建cost fuction。这个部分需要使用仿函数（functor）这一技巧来实现，做法是定义一个cost function的结构体，在结构体内重载（）运算符
 2：通过代价函数构建待求解的优化问题。
 3：配置求解器参数并求解问题，这个步骤就是设置方程怎么求解、求解过程是否输出等，然后调用一下Solve方法。
-参考 https://blog.csdn.net/cqrtxwd/article/details/78956227
+更多样例参考 https://blog.csdn.net/cqrtxwd/article/details/78956227
+ （多个输入、离散点拟合等）
  */
 
 /*
@@ -42,8 +43,8 @@ int main(int argc, char **argv) {
     ceres::Solver::Summary summary;//report优化信息
     ceres::Solve(options, &problem, &summary);//求解
 
+    //4.输出结果
     std::cout << summary.BriefReport() << endl;
-
     std::cout << "result x = " << x << endl;
 
     return 0;
