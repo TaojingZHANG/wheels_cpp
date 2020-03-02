@@ -4,3 +4,7 @@ SLAM/ceres/.idea
 SLAM/ceres/cmake-build-debug
 SLAM/g2o/.idea
 SLAM/g2o/cmake-build-debug
+SLAM/ICP_ceres_sample/.idea
+SLAM/ICP_ceres_sample/cmake-build-debug
+SLAM/ICP_test/.idea
+SLAM/ICP_test/cmake-build-debug
